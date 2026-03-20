@@ -1851,3 +1851,23 @@ body {
   overflow-y: auto;
   max-height: calc(100vh - 70px);
 }
+
+/* Estilo para os links de ação no rodapé */
+.footer-link-action {
+  color: inherit; /* Herda a cor do texto do rodapé */
+  text-decoration: none; /* Remove o sublinhado */
+  transition: color 0.3s ease;
+}
+
+.footer-link-action:hover {
+  color: var(--primary); /* Muda para a cor principal da FixPrime ao passar o mouse */
+  text-decoration: underline; /* Opcional: apenas um detalhe visual no hover */
+}
+
+/* Garante que o item de contato mantenha o alinhamento */
+.footer-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espaço entre o ícone e o link */
+  margin-bottom: 0.5rem;
+}
